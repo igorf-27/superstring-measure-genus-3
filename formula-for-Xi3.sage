@@ -1,4 +1,4 @@
-# This prints our formula for $Xi_3$ in terms of theta constants and theta gradients
+# This prints our formula for $Xi^{(3)}$ in terms of theta constants and theta gradients
 # obtained from invariant theory of nets. See Remark 4 in Section 1.7 of our paper.
 
 load("functions/invariants.sage")

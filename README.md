@@ -13,5 +13,5 @@ We describe the files.
 - `formula-for-Xi3.sage` prints a formula for the modular form $\Xi^{(3)}$ appearing in our paper. Namely, it is the formula (1.5b) with the numerical coefficients $k_1=3/2, k_2=0, k_3=-1/2$ substituted and all ingredients expanded. The expression that results is a rational function of theta constants and theta gradients, see Remark 4 at the end of Section 1.7 of our paper. The following notation is used. If `I`, `J`, `K` are decimal digits, then `thIJ` is the theta constant with characteristic `IJ`, and `thIJK` is the partial derivative of the theta function with characteristic `IJ` with respect to $z_K$ at $z=0$. The notation for theta functions and characteristics is explained in appendix A of the paper.
 - `make-formulas-for-invariants.sage` generates the files in `auto-generated/invariants-as-polynomials/`.
 - `test-invariants.sage` does some checks to convince one that we compute invariants of nets correctly.
-- `test-superstring-measures.sage` computes $\Xi_1, \Xi_2$ and $\Xi_3$ in several ways on 3x3 period matrices chosen at random. It also checks the factorization condition (1.3) for $\Xi_3$.
+- `test-superstring-measures.sage` computes $\Xi^{(1)}, \Xi^{(2)}$ and $\Xi^{(3)}$ in several ways on 3x3 period matrices chosen at random. It also checks the factorization condition (1.3) for $\Xi^{(3)}$.
 
