@@ -1,0 +1,1 @@
+-c^2*f + b*c*g - c*e*g + a*g^2 + b*g*p + e*g*p + f*p^2 - b*c*q - c*e*q + b*p*q - e*p*q - a*q^2 + b^2*r - e^2*r

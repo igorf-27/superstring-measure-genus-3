@@ -1,0 +1,41 @@
+ * For the quartic  x^4 + y^4 + z^4
+ * the invariant $I_3$ should be 144 and the discriminant 1.
+I_3 =  144
+discr =  1
+
+
+ * For the quartic  x^4 - y^4 - 5*x^2*y*z + 2*z^4
+ * the invariant $I_3$ should be -288 and the discriminant -321499206081/524288.
+I_3 =  -288
+discr =  -321499206081/524288
+
+
+ * Let us compute $\Lambda, I, I_3$ and $Q'$ for the matrices
+ * of Example 5.1 in [Gizatullin07].
+
+ * $\Lambda$ must be 0, see Example 5.1 (page 51).
+\Lambda =  0
+\Lambda =  0 
+
+ * I is given by the formula of [Gizatullin07, Remark 7.7] (page 56).
+I =  (g - r) * (g + r) * (-c + g) * (c - r) * (c + r) * (c + g) * (-b + g) * (-b + c) * (b - r) * (b + r) * (b + g) * (b + c) * r^3
+I =  (g - r) * (g + r) * (-c + g) * (c - r) * (c + r) * (c + g) * (-b + g) * (-b + c) * (b - r) * (b + r) * (b + g) * (b + c) * r^3 
+
+$I_3$ must be proportional to the last formula of [Gizatullin07, Example 5.1] (p. 51):
+I_3 =  (16) * (b*c*g - r^3) * (b*c*g + b^2*r + c^2*r + g^2*r - 4*r^3) 
+
+$Q'$ must be 0, see [Gizatullin07, Example 5.1] (p. 51).
+Q' = 0
+Q' = 0 
+
+ * Let us compute $J$ for the *Rieman normalization* of Example 2.7 (page 43).
+ * There must be 6 irreducible polynomials in its factorization, the first
+ * 5 polynomials must all have exponent 2, and the last one must have
+ * exponent 1. This is described in [Gizatullin07, Remark 10.2] (p. 61).
+ * The last polynomial is large, so we don't try to print it. We print the
+ * number of irreducible polynomials (must be 6), and then we try to print the
+ * 5 small polynomials with their exponents (technically, we ask Sage to print
+ * only those irreducible factors that consist of no more than 16 non-zero
+ * monomials).
+Number of irreducible polynomials:  6
+J = (e + p + 1)^2 * (c + g + 1)^2 * (b + q + 1)^2 * (b*c + c*e + b*g + e*g + b*p + g*p + c*q + e*q + p*q + b + c + e + g + p + q + 1)^2 * (b*c + c*e + b*g + e*g + b*p + g*p + c*q + e*q + p*q + 2*b + 2*c + 2*e + 2*g + 2*p + 2*q + 4)^2 * ...
